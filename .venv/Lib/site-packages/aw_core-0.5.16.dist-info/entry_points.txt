@@ -1,0 +1,3 @@
+[console_scripts]
+aw-cli=aw_cli.__main__:main
+
