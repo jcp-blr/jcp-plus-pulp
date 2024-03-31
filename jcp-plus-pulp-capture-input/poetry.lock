@@ -89,7 +89,7 @@ python-xlib = {version = "0.31", markers = "sys_platform == \"linux\""}
 type = "git"
 url = "https://github.com/jcp-blr/jcp-plus-pulp-capture-away.git"
 reference = "HEAD"
-resolved_reference = "84dd679194562900a74486d63ba7746e9e08c016"
+resolved_reference = "57e45b43e1cfce8dec14cbd73d3559fe9875828e"
 
 [[package]]
 name = "black"
