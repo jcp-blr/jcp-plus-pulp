@@ -10,8 +10,8 @@ python = "^3.8,<3.13"
 # Installing them from here won't work
 #aw-core = {path = "aw-core"}
 #aw-client = {path = "aw-client"}
-#aw-watcher-afk = {path = "aw-watcher-afk"}
-#aw-watcher-window = {path = "aw-watcher-window"}
+#jcp-plus-pulp-capture-afk = {path = "jcp-plus-pulp-capture-afk"}
+#jcp-plus-pulp-capture-window = {path = "jcp-plus-pulp-capture-window"}
 #aw-server = {path = "aw-server"}
 #aw-qt = {path = "aw-qt"}
 

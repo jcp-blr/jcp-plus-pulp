@@ -159,8 +159,8 @@ def report(
     name: Optional[str] = None,
 ):
     logger.info(f"Querying between {start} and {stop}")
-    bid_window = f"aw-watcher-window_{hostname}"
-    bid_afk = f"aw-watcher-afk_{hostname}"
+    bid_window = f"jcp-plus-pulp-capture-window_{hostname}"
+    bid_afk = f"jcp-plus-pulp-capture-afk_{hostname}"
 
     if not start.tzinfo:
         start = start.astimezone()
@@ -245,8 +245,8 @@ def canonical(
     name: Optional[str] = None,
 ):
     logger.info(f"Querying between {start} and {stop}")
-    bid_window = f"aw-watcher-window_{hostname}"
-    bid_afk = f"aw-watcher-afk_{hostname}"
+    bid_window = f"jcp-plus-pulp-capture-window_{hostname}"
+    bid_afk = f"jcp-plus-pulp-capture-afk_{hostname}"
 
     if not start.tzinfo:
         start = start.astimezone()

@@ -25,6 +25,6 @@ def simplify_string(events: List[Event], key: str = "title") -> List[Event]:
             e.data[key] = re_fps.sub("FPS: ...", e.data[key])
 
             # For VSCode (uses ●), gedit (uses *), et al
-            # See: https://github.com/ActivityWatch/aw-watcher-window/issues/32
+            # See: https://github.com/ActivityWatch/jcp-plus-pulp-capture-window/issues/32
             e.data[key] = re_leadingdot.sub("", e.data[key])
     return events

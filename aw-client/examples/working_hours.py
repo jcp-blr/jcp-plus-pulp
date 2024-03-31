@@ -75,8 +75,8 @@ def query(regex: str = EXAMPLE_REGEX, save=True):
 
     canonicalQuery = queries.canonicalEvents(
         queries.DesktopQueryParams(
-            bid_window="aw-watcher-window_",
-            bid_afk="aw-watcher-afk_",
+            bid_window="jcp-plus-pulp-capture-window_",
+            bid_afk="jcp-plus-pulp-capture-afk_",
             classes=categories,
             filter_classes=[["Work"]],
         )

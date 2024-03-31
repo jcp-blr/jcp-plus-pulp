@@ -9,7 +9,7 @@ Repos using this script:
  - ErikBjare/gptme
 
 Manual actions needed to clean up for changelog:
- - Reorder modules in a logical order (aw-webui, aw-server, aw-server-rust, aw-watcher-window, aw-watcher-afk, ...)
+ - Reorder modules in a logical order (aw-webui, aw-server, aw-server-rust, jcp-plus-pulp-capture-window, jcp-plus-pulp-capture-afk, ...)
  - Remove duplicate aw-webui entries
 """
 import argparse
@@ -73,8 +73,8 @@ def main():
         "aw-server",
         "aw-server-rust",
         "aw-webui",
-        "aw-watcher-afk",
-        "aw-watcher-window",
+        "jcp-plus-pulp-capture-afk",
+        "jcp-plus-pulp-capture-window",
         "aw-qt",
         "aw-core",
         "aw-client",

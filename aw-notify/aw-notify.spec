@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['aw_notify/main.py'],
+a = Analysis(['jcp_plus_pulp_notify/main.py'],
              pathex=[],
              binaries=None,
              datas=None,
@@ -19,7 +19,7 @@ pyz = PYZ(a.pure, a.zipped_data,
 exe = EXE(pyz,
           a.scripts,
           exclude_binaries=True,
-          name='aw-notify',
+          name='jcp-plus-pulp-notify',
           debug=False,
           strip=False,
           upx=True,
@@ -30,4 +30,4 @@ coll = COLLECT(exe,
                a.datas,
                strip=False,
                upx=True,
-               name='aw-notify')
+               name='jcp-plus-pulp-notify')

@@ -99,8 +99,8 @@ def get_time(date=None, top_level_only=True) -> dict[str, timedelta]:
     hostname = aw.get_info().get("hostname", "unknown")
     canonicalQuery = aw_client.queries.canonicalEvents(
         aw_client.queries.DesktopQueryParams(
-            bid_window=f"aw-watcher-window_{hostname}",
-            bid_afk=f"aw-watcher-afk_{hostname}",
+            bid_window=f"jcp-plus-pulp-capture-window_{hostname}",
+            bid_afk=f"jcp-plus-pulp-capture-afk_{hostname}",
         )
     )
     query = f"""
@@ -262,7 +262,7 @@ def init_macos():
 @click.option("-v", "--verbose", is_flag=True, help="Verbose logging.")
 @click.option("--testing", is_flag=True, help="Enables testing mode.")
 def main(ctx, verbose: bool, testing: bool):
-    setup_logging("aw-notify", testing=testing, verbose=verbose, log_file=True)
+    setup_logging("jcp-plus-pulp-notify", testing=testing, verbose=verbose, log_file=True)
     logging.getLogger("urllib3").setLevel(logging.WARNING)
     logger.info("Starting...")
 
@@ -278,7 +278,7 @@ def main(ctx, verbose: bool, testing: bool):
 def start(testing=False):
     """Start the notification service."""
     global aw
-    aw = aw_client.ActivityWatchClient("aw-notify", testing=testing)
+    aw = aw_client.ActivityWatchClient("jcp-plus-pulp-notify", testing=testing)
 
     send_checkin()
     send_checkin_yesterday()
@@ -324,7 +324,7 @@ def threshold_alerts():
 def checkin(testing=False):
     """Send a summary notification."""
     global aw
-    aw = aw_client.ActivityWatchClient("aw-notify-checkin", testing=testing)
+    aw = aw_client.ActivityWatchClient("jcp-plus-pulp-notify-checkin", testing=testing)
 
     send_checkin()
 
@@ -360,14 +360,14 @@ def send_checkin_yesterday():
 @cache_ttl(60)
 def get_active_status() -> Union[bool, None]:
     """
-    Get active status by polling latest event in aw-watcher-afk bucket.
+    Get active status by polling latest event in jcp-plus-pulp-capture-afk bucket.
     Returns True if user is active/not-afk, False if not.
     On error, like out-of-date event, returns None.
     """
     assert aw
 
     hostname = aw.get_info().get("hostname", "unknown")
-    events = aw.get_events(f"aw-watcher-afk_{hostname}", limit=1)
+    events = aw.get_events(f"jcp-plus-pulp-capture-afk_{hostname}", limit=1)
     logger.debug(events)
     if not events:
         return None

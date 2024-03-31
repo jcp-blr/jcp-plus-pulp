@@ -66,7 +66,7 @@ def main():
 
     if bid_to_redact == "*":
         for bucket_id in buckets.keys():
-            if bucket_id.startswith("aw-watcher-afk"):
+            if bucket_id.startswith("jcp-plus-pulp-capture-afk"):
                 continue
             _redact_bucket(bucket_id, pattern)
     else:

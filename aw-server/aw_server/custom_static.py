@@ -11,7 +11,7 @@ Usage for the watcher developer:
 - Register your watcher visualization in the config:
 
 [server.custom_static]
-aw-watcher-example=/home/user/path/to/static_dir/
+jcp-plus-pulp-capture-example=/home/user/path/to/static_dir/
 
 - Your custom static content automatically gets the data for the requested time span as GET parameter called "data".
 Another parameter called "view" can be used if you want to create multiple visualizations for a single watcher.

@@ -61,8 +61,8 @@ coll = COLLECT(exe,
 
 
 # Build a .app for macOS
-# This would probably be done best by also bundling aw-server, aw-watcher-afk and
-# aw-watcher-window in one single `.app`.
+# This would probably be done best by also bundling aw-server, jcp-plus-pulp-capture-afk and
+# jcp-plus-pulp-capture-window in one single `.app`.
 #
 # NOTE: Untested, remove the False to test
 if False and platform.system() == "Darwin":

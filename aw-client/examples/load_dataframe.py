@@ -13,8 +13,8 @@ from aw_client.queries import DesktopQueryParams, canonicalEvents
 def build_query() -> str:
     canonicalQuery = canonicalEvents(
         DesktopQueryParams(
-            bid_window="aw-watcher-window_",
-            bid_afk="aw-watcher-afk_",
+            bid_window="jcp-plus-pulp-capture-window_",
+            bid_afk="jcp-plus-pulp-capture-afk_",
             classes=default_classes,
         )
     )

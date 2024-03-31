@@ -147,7 +147,7 @@ class ServerAPI:
         Create a bucket.
 
         If hostname is "!local", the hostname and device_id will be set from the server info.
-        This is useful for watchers which are known/assumed to run locally but might not know their hostname (like aw-watcher-web).
+        This is useful for watchers which are known/assumed to run locally but might not know their hostname (like jcp-plus-pulp-capture-web).
 
         Returns True if successful, otherwise false if a bucket with the given ID already existed.
         """
@@ -262,14 +262,14 @@ class ServerAPI:
 
         Such as:
          - Active application and window title
-           - Example: aw-watcher-window
+           - Example: jcp-plus-pulp-capture-window
          - Currently open document/browser tab/playing song
            - Example: wakatime
-           - Example: aw-watcher-web
-           - Example: aw-watcher-spotify
+           - Example: jcp-plus-pulp-capture-web
+           - Example: jcp-plus-pulp-capture-spotify
          - Is the user active/inactive?
            Send an event on some interval indicating if the user is active or not.
-           - Example: aw-watcher-afk
+           - Example: jcp-plus-pulp-capture-afk
 
         Inspired by: https://wakatime.com/developers#heartbeats
         """
