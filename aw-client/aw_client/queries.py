@@ -283,7 +283,7 @@ def fullDesktopQuery(
 def test_fullDesktopQuery():
     params = DesktopQueryParams(
         bid_window="jcp-plus-pulp-capture-window_",
-        bid_afk="jcp-plus-pulp-capture-afk_",
+        bid_afk="jcp-plus-pulp-capture-away_",
     )
     now = datetime.now(tz=timezone.utc)
     start = now - timedelta(days=7)

@@ -11,7 +11,7 @@
 
 SHELL := /usr/bin/env bash
 
-SUBMODULES := aw-core aw-client aw-qt aw-server aw-server-rust jcp-plus-pulp-capture-afk jcp-plus-pulp-capture-window
+SUBMODULES := aw-core aw-client aw-qt aw-server aw-server-rust jcp-plus-pulp-capture-away jcp-plus-pulp-capture-window
 
 # Exclude aw-server-rust if SKIP_SERVER_RUST is true
 ifeq ($(SKIP_SERVER_RUST),true)

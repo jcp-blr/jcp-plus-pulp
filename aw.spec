@@ -84,7 +84,7 @@ aw_server_rust_location = Path("aw-server-rust")
 aw_server_rust_bin = aw_server_rust_location / "target/package/aw-server-rust"
 aw_sync_bin = aw_server_rust_location / "target/package/aw-sync"
 aw_qt_location = Path("aw-qt")
-awa_location = Path("jcp-plus-pulp-capture-afk")
+awa_location = Path("jcp-plus-pulp-capture-away")
 aww_location = Path("jcp-plus-pulp-capture-window")
 awi_location = Path("jcp-plus-pulp-capture-input")
 jcp_plus_pulp_notify_location = Path("jcp-plus-pulp-notify")
@@ -119,8 +119,8 @@ aw_server_a = build_analysis(
         (aw_core_path / "schemas", "aw_core/schemas"),
     ],
 )
-jcp_plus_pulp_capture_afk_a = build_analysis(
-    "jcp_plus_pulp_capture_afk",
+jcp_plus_pulp_capture_away_a = build_analysis(
+    "jcp_plus_pulp_capture_away",
     awa_location,
     hiddenimports=[
         "Xlib.keysymdef.miscellany",
@@ -171,7 +171,7 @@ jcp_plus_pulp_notify_a = build_analysis(
 MERGE(
     (aw_server_a, "aw-server", "aw-server"),
     (aw_qt_a, "aw-qt", "aw-qt"),
-    (jcp_plus_pulp_capture_afk_a, "jcp-plus-pulp-capture-afk", "jcp-plus-pulp-capture-afk"),
+    (jcp_plus_pulp_capture_away_a, "jcp-plus-pulp-capture-away", "jcp-plus-pulp-capture-away"),
     (jcp_plus_pulp_capture_window_a, "jcp-plus-pulp-capture-window", "jcp-plus-pulp-capture-window"),
     (jcp_plus_pulp_capture_input_a, "jcp-plus-pulp-capture-input", "jcp-plus-pulp-capture-input"),
     (jcp_plus_pulp_notify_a, "jcp-plus-pulp-notify", "jcp-plus-pulp-notify"),
@@ -184,8 +184,8 @@ aws_coll = build_collect(aw_server_a, "aw-server")
 # jcp-plus-pulp-capture-window
 aww_coll = build_collect(jcp_plus_pulp_capture_window_a, "jcp-plus-pulp-capture-window")
 
-# jcp-plus-pulp-capture-afk
-awa_coll = build_collect(jcp_plus_pulp_capture_afk_a, "jcp-plus-pulp-capture-afk")
+# jcp-plus-pulp-capture-away
+awa_coll = build_collect(jcp_plus_pulp_capture_away_a, "jcp-plus-pulp-capture-away")
 
 # aw-qt
 awq_coll = build_collect(

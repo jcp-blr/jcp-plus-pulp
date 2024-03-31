@@ -61,7 +61,7 @@ coll = COLLECT(exe,
 
 
 # Build a .app for macOS
-# This would probably be done best by also bundling aw-server, jcp-plus-pulp-capture-afk and
+# This would probably be done best by also bundling aw-server, jcp-plus-pulp-capture-away and
 # jcp-plus-pulp-capture-window in one single `.app`.
 #
 # NOTE: Untested, remove the False to test

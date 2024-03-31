@@ -160,7 +160,7 @@ def report(
 ):
     logger.info(f"Querying between {start} and {stop}")
     bid_window = f"jcp-plus-pulp-capture-window_{hostname}"
-    bid_afk = f"jcp-plus-pulp-capture-afk_{hostname}"
+    bid_afk = f"jcp-plus-pulp-capture-away_{hostname}"
 
     if not start.tzinfo:
         start = start.astimezone()
@@ -246,7 +246,7 @@ def canonical(
 ):
     logger.info(f"Querying between {start} and {stop}")
     bid_window = f"jcp-plus-pulp-capture-window_{hostname}"
-    bid_afk = f"jcp-plus-pulp-capture-afk_{hostname}"
+    bid_afk = f"jcp-plus-pulp-capture-away_{hostname}"
 
     if not start.tzinfo:
         start = start.astimezone()

@@ -7,7 +7,7 @@ import aw_client
 
 if __name__ == "__main__":
     # Set this to your AFK bucket
-    bucket_id = f"jcp-plus-pulp-capture-afk_{socket.gethostname()}"
+    bucket_id = f"jcp-plus-pulp-capture-away_{socket.gethostname()}"
 
     daystart = datetime.combine(datetime.now().date(), time())
     dayend = daystart + timedelta(days=1)

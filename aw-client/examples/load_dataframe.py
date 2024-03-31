@@ -14,7 +14,7 @@ def build_query() -> str:
     canonicalQuery = canonicalEvents(
         DesktopQueryParams(
             bid_window="jcp-plus-pulp-capture-window_",
-            bid_afk="jcp-plus-pulp-capture-afk_",
+            bid_afk="jcp-plus-pulp-capture-away_",
             classes=default_classes,
         )
     )

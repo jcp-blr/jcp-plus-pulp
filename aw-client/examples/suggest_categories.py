@@ -40,7 +40,7 @@ def get_events(categories=List[Tuple[Tuple[str], Dict[str, Any]]]):
     canonicalQuery = queries.canonicalEvents(
         queries.DesktopQueryParams(
             bid_window="jcp-plus-pulp-capture-window_",
-            bid_afk="jcp-plus-pulp-capture-afk_",
+            bid_afk="jcp-plus-pulp-capture-away_",
             classes=categories,
         )
     )

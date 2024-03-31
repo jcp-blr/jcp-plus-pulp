@@ -269,7 +269,7 @@ class ServerAPI:
            - Example: jcp-plus-pulp-capture-spotify
          - Is the user active/inactive?
            Send an event on some interval indicating if the user is active or not.
-           - Example: jcp-plus-pulp-capture-afk
+           - Example: jcp-plus-pulp-capture-away
 
         Inspired by: https://wakatime.com/developers#heartbeats
         """
