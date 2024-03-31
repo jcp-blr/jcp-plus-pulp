@@ -84,10 +84,10 @@ aw_server_rust_location = Path("aw-server-rust")
 aw_server_rust_bin = aw_server_rust_location / "target/package/aw-server-rust"
 aw_sync_bin = aw_server_rust_location / "target/package/aw-sync"
 aw_qt_location = Path("aw-qt")
-awa_location = Path("jcp-plus-pulp-capture-away")
-aww_location = Path("jcp-plus-pulp-capture-window")
-awi_location = Path("jcp-plus-pulp-capture-input")
-jcp_plus_pulp_notify_location = Path("jcp-plus-pulp-notify")
+awa_location = Path("aw-watcher-afk")
+aww_location = Path("aw-watcher-window")
+awi_location = Path("aw-watcher-input")
+aw_notify_location = Path("aw-notify")
 
 if platform.system() == "Darwin":
     icon = aw_qt_location / "media/logo/logo.icns"
@@ -119,8 +119,8 @@ aw_server_a = build_analysis(
         (aw_core_path / "schemas", "aw_core/schemas"),
     ],
 )
-jcp_plus_pulp_capture_away_a = build_analysis(
-    "jcp_plus_pulp_capture_away",
+aw_watcher_afk_a = build_analysis(
+    "aw_watcher_afk",
     awa_location,
     hiddenimports=[
         "Xlib.keysymdef.miscellany",
@@ -145,24 +145,24 @@ jcp_plus_pulp_capture_away_a = build_analysis(
         "pynput.mouse._darwin",
     ],
 )
-jcp_plus_pulp_capture_input_a = build_analysis("jcp_plus_pulp_capture_input", awi_location)
-jcp_plus_pulp_capture_window_a = build_analysis(
-    "jcp_plus_pulp_capture_window",
+aw_watcher_input_a = build_analysis("aw_watcher_input", awi_location)
+aw_watcher_window_a = build_analysis(
+    "aw_watcher_window",
     aww_location,
     binaries=[
         (
-            aww_location / "jcp_plus_pulp_capture_window/jcp-plus-pulp-capture-window-macos",
-            "jcp_plus_pulp_capture_window",
+            aww_location / "aw_watcher_window/aw-watcher-window-macos",
+            "aw_watcher_window",
         )
     ]
     if platform.system() == "Darwin"
     else [],
     datas=[
-        (aww_location / "jcp_plus_pulp_capture_window/printAppStatus.jxa", "jcp_plus_pulp_capture_window")
+        (aww_location / "aw_watcher_window/printAppStatus.jxa", "aw_watcher_window")
     ],
 )
-jcp_plus_pulp_notify_a = build_analysis(
-    "jcp_plus_pulp_notify", jcp_plus_pulp_notify_location, hiddenimports=["desktop_notifier.resources"]
+aw_notify_a = build_analysis(
+    "aw_notify", aw_notify_location, hiddenimports=["desktop_notifier.resources"]
 )
 
 # https://pythonhosted.org/PyInstaller/spec-files.html#multipackage-bundles
@@ -171,21 +171,21 @@ jcp_plus_pulp_notify_a = build_analysis(
 MERGE(
     (aw_server_a, "aw-server", "aw-server"),
     (aw_qt_a, "aw-qt", "aw-qt"),
-    (jcp_plus_pulp_capture_away_a, "jcp-plus-pulp-capture-away", "jcp-plus-pulp-capture-away"),
-    (jcp_plus_pulp_capture_window_a, "jcp-plus-pulp-capture-window", "jcp-plus-pulp-capture-window"),
-    (jcp_plus_pulp_capture_input_a, "jcp-plus-pulp-capture-input", "jcp-plus-pulp-capture-input"),
-    (jcp_plus_pulp_notify_a, "jcp-plus-pulp-notify", "jcp-plus-pulp-notify"),
+    (aw_watcher_afk_a, "aw-watcher-afk", "aw-watcher-afk"),
+    (aw_watcher_window_a, "aw-watcher-window", "aw-watcher-window"),
+    (aw_watcher_input_a, "aw-watcher-input", "aw-watcher-input"),
+    (aw_notify_a, "aw-notify", "aw-notify"),
 )
 
 
 # aw-server
 aws_coll = build_collect(aw_server_a, "aw-server")
 
-# jcp-plus-pulp-capture-window
-aww_coll = build_collect(jcp_plus_pulp_capture_window_a, "jcp-plus-pulp-capture-window")
+# aw-watcher-window
+aww_coll = build_collect(aw_watcher_window_a, "aw-watcher-window")
 
-# jcp-plus-pulp-capture-away
-awa_coll = build_collect(jcp_plus_pulp_capture_away_a, "jcp-plus-pulp-capture-away")
+# aw-watcher-afk
+awa_coll = build_collect(aw_watcher_afk_a, "aw-watcher-afk")
 
 # aw-qt
 awq_coll = build_collect(
@@ -194,10 +194,10 @@ awq_coll = build_collect(
     console=False if platform.system() == "Windows" else True,
 )
 
-# jcp-plus-pulp-capture-input
-awi_coll = build_collect(jcp_plus_pulp_capture_input_a, "jcp-plus-pulp-capture-input")
+# aw-watcher-input
+awi_coll = build_collect(aw_watcher_input_a, "aw-watcher-input")
 
-jcp_plus_pulp_notify_coll = build_collect(jcp_plus_pulp_notify_a, "jcp-plus-pulp-notify")
+aw_notify_coll = build_collect(aw_notify_a, "aw-notify")
 
 if platform.system() == "Darwin":
     app = BUNDLE(
@@ -206,7 +206,7 @@ if platform.system() == "Darwin":
         aww_coll,
         awa_coll,
         awi_coll,
-        jcp_plus_pulp_notify_coll,
+        aw_notify_coll,
         name="ActivityWatch.app",
         icon=icon,
         bundle_identifier="net.activitywatch.ActivityWatch",
