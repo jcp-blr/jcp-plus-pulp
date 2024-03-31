@@ -1,0 +1,3 @@
+[console_scripts]
+aw-client=aw_client.cli:main
+
