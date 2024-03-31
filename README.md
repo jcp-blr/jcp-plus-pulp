@@ -1,1 +1,0 @@
-# jcp-plus-pulp
