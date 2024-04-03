@@ -2014,11 +2014,11 @@
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-window\\build\\jcp-plus-pulp-monitor-window\\base_library.zip',
    'DATA'),
-  ('certifi\\cacert.pem',
-   'C:\\Users\\Maruthi '
-   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\cacert.pem',
-   'DATA'),
   ('certifi\\py.typed',
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\cacert.pem',
    'DATA')])
