@@ -90,13 +90,13 @@
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libssl-1_1.dll',
    'BINARY'),
-  ('VCRUNTIME140_1.dll',
-   'C:\\Users\\Maruthi '
-   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\VCRUNTIME140_1.dll',
-   'BINARY'),
   ('pywin32_system32\\pywintypes39.dll',
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pywin32_system32\\pywintypes39.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\VCRUNTIME140_1.dll',
    'BINARY'),
   ('sqlite3.dll',
    'C:\\Users\\Maruthi '
@@ -106,9 +106,9 @@
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\build\\jcp-plus-pulp-monitor-input\\base_library.zip',
    'DATA'),
-  ('importlib_metadata-7.1.0.dist-info\\RECORD',
+  ('importlib_metadata-7.1.0.dist-info\\METADATA',
    'C:\\Users\\Maruthi '
-   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\RECORD',
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\METADATA',
    'DATA'),
   ('importlib_metadata-7.1.0.dist-info\\top_level.txt',
    'C:\\Users\\Maruthi '
@@ -118,10 +118,6 @@
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\WHEEL',
    'DATA'),
-  ('importlib_metadata-7.1.0.dist-info\\METADATA',
-   'C:\\Users\\Maruthi '
-   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\METADATA',
-   'DATA'),
   ('importlib_metadata-7.1.0.dist-info\\INSTALLER',
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\INSTALLER',
@@ -129,6 +125,10 @@
   ('importlib_metadata-7.1.0.dist-info\\LICENSE',
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\LICENSE',
+   'DATA'),
+  ('importlib_metadata-7.1.0.dist-info\\RECORD',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\RECORD',
    'DATA'),
   ('certifi\\cacert.pem',
    'C:\\Users\\Maruthi '

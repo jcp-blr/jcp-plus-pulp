@@ -28,6 +28,7 @@ async def stuff():
         cur = con.cursor()
         cur.execute("SELECT * FROM eventmodel ORDER BY id ASC")
         db_records = cur.fetchall()
+        logger.notice('Query Count: ' + str(len(db_records)))
     except Exception as err:
         logger.error('Fetch Query Error: ' + (str(err)))
     finally:
