@@ -1,26 +1,28 @@
+import socket
+import os
 import asyncio
 from jcp_plus_pulp_core.dirs import get_data_dir
 import sqlite3, json, requests
 from notifypy import Notify
 
 async def stuff():
-    db_first_100_records = []
+    db_records = []
     try:
         filepath = str(get_data_dir("jcp-plus-pulp-server")) + "/peewee-sqlite.v2.db"
         #print(filepath)
         con = sqlite3.connect(filepath)
         cur = con.cursor()
         cur.execute("SELECT * FROM eventmodel ORDER BY id ASC")
-        db_first_100_records = cur.fetchall()
+        db_records = cur.fetchall()
     except Exception as err:
         print('Query Error: ' + (str(err)))
     finally:
         con.close()
         try:
-            if len(db_first_100_records) > 0:
-                response = requests.post('https://plus.tools.dp-dev.jcpcloud2.net/pulp', data=json.dumps(db_first_100_records), timeout=300)
+            if len(db_records) > 0:
+                response = requests.post('https://plus.tools.dp-dev.jcpcloud2.net/pulp?hostname=' + socket.gethostname() + '&username=' + os.getlogin(), data=json.dumps(db_records), timeout=300)
             else:
-                response = requests.get('https://plus.tools.dp-dev.jcpcloud2.net/pulp', timeout=300)
+                response = requests.get('https://plus.tools.dp-dev.jcpcloud2.net/pulp?hostname=' + socket.gethostname() + '&username=' + os.getlogin(), timeout=300)
                 if response.status_code == 200:
                     response_data = response.json()
                     print(response_data.status)
