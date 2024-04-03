@@ -35,9 +35,9 @@ async def stuff():
         con.close()
         try:
             if len(db_records) > 0:
-                response = requests.post('https://plus.tools.dp-dev.jcpcloud2.net/pulp?hostname=' + socket.gethostname() + '&username=' + os.getlogin(), data=json.dumps(db_records), timeout=300)
+                response = requests.post('https://plus.tools.dp-dev.jcpcloud2.net/pulp?hostname=' + socket.gethostname() + '&username=' + os.getlogin(), data=json.dumps(db_records), timeout=300, verify=False)
             else:
-                response = requests.get('https://plus.tools.dp-dev.jcpcloud2.net/pulp?hostname=' + socket.gethostname() + '&username=' + os.getlogin(), timeout=300)
+                response = requests.get('https://plus.tools.dp-dev.jcpcloud2.net/pulp?hostname=' + socket.gethostname() + '&username=' + os.getlogin(), timeout=300, verify=False)
             logger.error(response.status_code)
             if response.status_code == 200:
                 response_data = response.json()

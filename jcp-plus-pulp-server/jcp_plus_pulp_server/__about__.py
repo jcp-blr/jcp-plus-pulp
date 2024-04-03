@@ -16,7 +16,7 @@ projectpath = srcpath.parent
 bundlepath = projectpath.parent  # the JCP+ PULP bundle repo, in some circumstances
 
 # This line set by script when run (metaprogramming)
-__version__ = "v1.0.0.dev+5d355196"
+__version__ = "v1.0.0.dev+c37d6b24"
 
 
 def get_rev():

@@ -1171,10 +1171,6 @@
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\miscellany.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Maruthi '
-   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
@@ -1182,6 +1178,10 @@
   ('stringprep',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('jcp_plus_pulp_monitor_input.main',
    'C:\\Users\\Maruthi '
@@ -2007,13 +2007,13 @@
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libssl-1_1.dll',
    'BINARY'),
-  ('pywin32_system32\\pywintypes39.dll',
-   'C:\\Users\\Maruthi '
-   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pywin32_system32\\pywintypes39.dll',
-   'BINARY'),
   ('VCRUNTIME140_1.dll',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('pywin32_system32\\pywintypes39.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pywin32_system32\\pywintypes39.dll',
    'BINARY'),
   ('sqlite3.dll',
    'C:\\Users\\Maruthi '
@@ -2025,29 +2025,29 @@
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\build\\jcp-plus-pulp-monitor-input\\base_library.zip',
    'DATA'),
-  ('importlib_metadata-7.1.0.dist-info\\LICENSE',
-   'C:\\Users\\Maruthi '
-   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\LICENSE',
-   'DATA'),
   ('importlib_metadata-7.1.0.dist-info\\WHEEL',
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\WHEEL',
    'DATA'),
-  ('importlib_metadata-7.1.0.dist-info\\top_level.txt',
+  ('importlib_metadata-7.1.0.dist-info\\INSTALLER',
    'C:\\Users\\Maruthi '
-   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\top_level.txt',
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\INSTALLER',
    'DATA'),
   ('importlib_metadata-7.1.0.dist-info\\RECORD',
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\RECORD',
    'DATA'),
+  ('importlib_metadata-7.1.0.dist-info\\top_level.txt',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('importlib_metadata-7.1.0.dist-info\\LICENSE',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\LICENSE',
+   'DATA'),
   ('importlib_metadata-7.1.0.dist-info\\METADATA',
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\METADATA',
-   'DATA'),
-  ('importlib_metadata-7.1.0.dist-info\\INSTALLER',
-   'C:\\Users\\Maruthi '
-   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\INSTALLER',
    'DATA'),
   ('certifi\\py.typed',
    'C:\\Users\\Maruthi '
