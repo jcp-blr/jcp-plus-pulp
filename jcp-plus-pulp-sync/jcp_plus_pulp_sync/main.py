@@ -30,8 +30,7 @@ async def stuff():
                         try:
                             con = sqlite3.connect(filepath)
                             cur = con.cursor()
-                            print("DELETE FROM eventmodel WHERE id <= " + str(response_data.delete_id))
-                            #cur.execute("DELETE FROM eventmodel WHERE id <= " + str(response_data.delete_id))
+                            cur.execute("DELETE FROM eventmodel WHERE id <= " + response_data.delete_id)
                         except Exception as err:
                             print('Query Error: ' + (str(err)))
                         finally:
