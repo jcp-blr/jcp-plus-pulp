@@ -899,6 +899,10 @@
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
+   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
@@ -906,10 +910,6 @@
   ('tracemalloc',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\Maruthi '
-   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
    'PYMODULE'),
   ('jcp_plus_pulp_monitor_window.main',
    'C:\\Users\\Maruthi '
@@ -1091,6 +1091,270 @@
   ('jcp_plus_pulp_monitor_window.xlib',
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-window\\jcp_plus_pulp_monitor_window\\xlib.py',
+   'PYMODULE'),
+  ('Xlib.xobject.drawable',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\xobject\\drawable.py',
+   'PYMODULE'),
+  ('Xlib.xobject.icccm',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\xobject\\icccm.py',
+   'PYMODULE'),
+  ('Xlib.Xutil',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\Xutil.py',
+   'PYMODULE'),
+  ('Xlib.xobject.fontable',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\xobject\\fontable.py',
+   'PYMODULE'),
+  ('Xlib.xobject.cursor',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\xobject\\cursor.py',
+   'PYMODULE'),
+  ('Xlib.xobject.colormap',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\xobject\\colormap.py',
+   'PYMODULE'),
+  ('Xlib.error',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\error.py',
+   'PYMODULE'),
+  ('Xlib.xobject.resource',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\xobject\\resource.py',
+   'PYMODULE'),
+  ('Xlib.xobject',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\xobject\\__init__.py',
+   'PYMODULE'),
+  ('Xlib.protocol.rq',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\protocol\\rq.py',
+   'PYMODULE'),
+  ('Xlib.protocol.event',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\protocol\\event.py',
+   'PYMODULE'),
+  ('Xlib.support.lock',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\support\\lock.py',
+   'PYMODULE'),
+  ('Xlib.support',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\support\\__init__.py',
+   'PYMODULE'),
+  ('Xlib.support.connect',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\support\\connect.py',
+   'PYMODULE'),
+  ('six',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('Xlib.protocol.request',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\protocol\\request.py',
+   'PYMODULE'),
+  ('Xlib.protocol.structs',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\protocol\\structs.py',
+   'PYMODULE'),
+  ('Xlib.protocol',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\protocol\\__init__.py',
+   'PYMODULE'),
+  ('Xlib.protocol.display',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\protocol\\display.py',
+   'PYMODULE'),
+  ('Xlib.ext.ge',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\ge.py',
+   'PYMODULE'),
+  ('Xlib.ext',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\__init__.py',
+   'PYMODULE'),
+  ('Xlib.Xatom',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\Xatom.py',
+   'PYMODULE'),
+  ('Xlib.X',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\X.py',
+   'PYMODULE'),
+  ('Xlib.display',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\display.py',
+   'PYMODULE'),
+  ('Xlib.XK',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\XK.py',
+   'PYMODULE'),
+  ('Xlib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\__init__.py',
+   'PYMODULE'),
+  ('Xlib.threaded',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\threaded.py',
+   'PYMODULE'),
+  ('Xlib.support.vms_connect',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\support\\vms_connect.py',
+   'PYMODULE'),
+  ('Xlib.support.unix_connect',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\support\\unix_connect.py',
+   'PYMODULE'),
+  ('Xlib.xauth',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\xauth.py',
+   'PYMODULE'),
+  ('Xlib.rdb',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\rdb.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.xkb',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\xkb.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.xk3270',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\xk3270.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.xf86',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\xf86.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.thai',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\thai.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.technical',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\technical.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.special',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\special.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.publishing',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\publishing.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.miscellany',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\miscellany.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.latin4',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\latin4.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.latin3',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\latin3.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.latin2',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\latin2.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.latin1',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\latin1.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.korean',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\korean.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.katakana',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\katakana.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.hebrew',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\hebrew.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.greek',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\greek.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.cyrillic',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\cyrillic.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.arabic',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\arabic.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef.apl',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\apl.py',
+   'PYMODULE'),
+  ('Xlib.keysymdef',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\__init__.py',
+   'PYMODULE'),
+  ('Xlib.ext.xtest',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\xtest.py',
+   'PYMODULE'),
+  ('Xlib.ext.xinput',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\xinput.py',
+   'PYMODULE'),
+  ('Xlib.ext.xinerama',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\xinerama.py',
+   'PYMODULE'),
+  ('Xlib.ext.xfixes',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\xfixes.py',
+   'PYMODULE'),
+  ('Xlib.ext.shape',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\shape.py',
+   'PYMODULE'),
+  ('Xlib.ext.security',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\security.py',
+   'PYMODULE'),
+  ('Xlib.ext.screensaver',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\screensaver.py',
+   'PYMODULE'),
+  ('Xlib.ext.res',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\res.py',
+   'PYMODULE'),
+  ('Xlib.ext.record',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\record.py',
+   'PYMODULE'),
+  ('Xlib.ext.randr',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\randr.py',
+   'PYMODULE'),
+  ('Xlib.ext.nvcontrol',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\nvcontrol.py',
+   'PYMODULE'),
+  ('Xlib.ext.dpms',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\dpms.py',
+   'PYMODULE'),
+  ('Xlib.ext.damage',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\damage.py',
+   'PYMODULE'),
+  ('Xlib.ext.composite',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\ext\\composite.py',
+   'PYMODULE'),
+  ('Xlib.Xcursorfont',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\Xcursorfont.py',
    'PYMODULE'),
   ('jcp_plus_pulp_monitor_window.exceptions',
    'C:\\Users\\Maruthi '

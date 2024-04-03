@@ -1,4 +1,6 @@
 import logging
+from jcp_plus_pulp_core.log import setup_logging
+
 import socket
 import os
 import asyncio
@@ -7,14 +9,23 @@ import sqlite3, json, requests
 from notifypy import Notify
 
 logger = logging.getLogger(__name__)
-logger.info("jcp-plus-pulp-sync db filepath is " + str(filepath))
+
+setup_logging(
+    name="jcp-plus-pulp-sync",
+    testing=False,
+    verbose=False,
+    log_stderr=True,
+    log_file=True,
+)
+
+logger.info("jcp-plus-pulp-sync started")
 print("logged")
 
 async def stuff():
     db_records = []
     try:
         filepath = str(get_data_dir("jcp-plus-pulp-server")) + "/peewee-sqlite.v2.db"
-        #print(filepath)
+        logger.info("jcp-plus-pulp-sync db filepath is " + str(filepath))
         con = sqlite3.connect(filepath)
         cur = con.cursor()
         cur.execute("SELECT * FROM eventmodel ORDER BY id ASC")
