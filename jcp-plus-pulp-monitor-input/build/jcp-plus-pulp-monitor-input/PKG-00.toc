@@ -1,0 +1,64 @@
+('C:\\Users\\Maruthi '
+ 'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\build\\jcp-plus-pulp-monitor-input\\jcp-plus-pulp-monitor-input.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\build\\jcp-plus-pulp-monitor-input\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\build\\jcp-plus-pulp-monitor-input\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\build\\jcp-plus-pulp-monitor-input\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\build\\jcp-plus-pulp-monitor-input\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\build\\jcp-plus-pulp-monitor-input\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\build\\jcp-plus-pulp-monitor-input\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('__main__',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\src\\jcp_plus_pulp_monitor_input\\__main__.py',
+   'PYSOURCE')],
+ 'python39.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

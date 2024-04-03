@@ -1,0 +1,6 @@
+#!C:\Users\Maruthi Gowda\Documents\GitHub\jcp-plus-pulp\.venv\Scripts\python.exe
+import sys
+from jcp_plus_pulp_monitor_window import main
+
+if __name__ == '__main__':
+    sys.exit(main())

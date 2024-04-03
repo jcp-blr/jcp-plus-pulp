@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\ygowda\OneDrive - JC Penney\Documents\GitHub\jcp-plus-pulp\.venv"
+VIRTUAL_ENV="C:\Users\Maruthi Gowda\Documents\GitHub\jcp-plus-pulp\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

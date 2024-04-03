@@ -1,0 +1,1799 @@
+(['C:\\Users\\Maruthi '
+  'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\src\\jcp_plus_pulp_monitor_input\\__main__.py'],
+ ['C:\\Users\\Maruthi '
+  'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\src'],
+ ['Xlib.keysymdef.miscellany',
+  'Xlib.keysymdef.latin1',
+  'Xlib.keysymdef.latin2',
+  'Xlib.keysymdef.latin3',
+  'Xlib.keysymdef.latin4',
+  'Xlib.keysymdef.greek',
+  'Xlib.support.unix_connect',
+  'Xlib.ext.shape',
+  'Xlib.ext.xinerama',
+  'Xlib.ext.composite',
+  'Xlib.ext.randr',
+  'Xlib.ext.xfixes',
+  'Xlib.ext.security',
+  'Xlib.ext.xinput',
+  'pynput.keyboard._xorg',
+  'pynput.mouse._xorg'],
+ ['C:\\Users\\Maruthi '
+  'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'C:\\Users\\Maruthi '
+  'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+ {},
+ [],
+ [],
+ False,
+ {},
+ [],
+ [],
+ '3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_inspect',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('__main__',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\src\\jcp_plus_pulp_monitor_input\\__main__.py',
+   'PYSOURCE')],
+ [('_pyi_rth_utils',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\typing.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\configparser.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\gettext.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_compression.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\bz2.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\struct.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\gzip.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\calendar.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\datetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\selectors.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\numbers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pprint.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\string.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\bisect.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\getopt.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\optparse.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\csv.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\token.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\inspect.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ast.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._common',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\_common.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\signal.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.metadata',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.zipp',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\zipp.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.typing_extensions',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\typing_extensions.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.windows',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\windows.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\__future__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.version',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.unix',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\unix.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.macos',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\macos.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.api',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\api.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.android',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\android.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs.__main__',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\__main__.py',
+   'PYMODULE'),
+  ('platformdirs',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\platformdirs\\__init__.py',
+   'PYMODULE'),
+  ('platformdirs.android',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\platformdirs\\android.py',
+   'PYMODULE'),
+  ('platformdirs.unix',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\platformdirs\\unix.py',
+   'PYMODULE'),
+  ('platformdirs.macos',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\platformdirs\\macos.py',
+   'PYMODULE'),
+  ('platformdirs.windows',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\platformdirs\\windows.py',
+   'PYMODULE'),
+  ('platformdirs.version',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\platformdirs\\version.py',
+   'PYMODULE'),
+  ('platformdirs.api',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\platformdirs\\api.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.platformdirs',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.metadata',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._tokenizer',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._parser',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._musllinux',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._manylinux',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._elffile',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools.recipes',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools.more',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\queue.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.text',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\resources.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.functools',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\functools.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.context',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.simple',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\simple.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.readers',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\readers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.abc',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\abc.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._legacy',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_legacy.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._itertools',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_itertools.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._compat',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._common',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_common.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._adapters',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_adapters.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ssl.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\platform.py',
+   'PYMODULE'),
+  ('pynput.mouse._xorg',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\mouse\\_xorg.py',
+   'PYMODULE'),
+  ('pynput.mouse._base',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\mouse\\_base.py',
+   'PYMODULE'),
+  ('pynput',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\__init__.py',
+   'PYMODULE'),
+  ('pynput.mouse._win32',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\mouse\\_win32.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('pynput.mouse._dummy',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\mouse\\_dummy.py',
+   'PYMODULE'),
+  ('pynput.mouse._darwin',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\mouse\\_darwin.py',
+   'PYMODULE'),
+  ('pynput.keyboard._win32',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\keyboard\\_win32.py',
+   'PYMODULE'),
+  ('six',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('pynput.keyboard._uinput',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\keyboard\\_uinput.py',
+   'PYMODULE'),
+  ('pynput.keyboard._dummy',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\keyboard\\_dummy.py',
+   'PYMODULE'),
+  ('pynput.keyboard._darwin',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\keyboard\\_darwin.py',
+   'PYMODULE'),
+  ('pynput.keyboard._base',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\keyboard\\_base.py',
+   'PYMODULE'),
+  ('pynput._util.xorg_keysyms',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\_util\\xorg_keysyms.py',
+   'PYMODULE'),
+  ('pynput._util.win32_vks',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\_util\\win32_vks.py',
+   'PYMODULE'),
+  ('pynput._util.win32',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\_util\\win32.py',
+   'PYMODULE'),
+  ('pynput._util.uinput',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\_util\\uinput.py',
+   'PYMODULE'),
+  ('pynput._util.darwin_vks',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\_util\\darwin_vks.py',
+   'PYMODULE'),
+  ('pynput._util.darwin',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\_util\\darwin.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('pynput._info',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\_info.py',
+   'PYMODULE'),
+  ('pynput.keyboard',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\keyboard\\__init__.py',
+   'PYMODULE'),
+  ('pynput._util',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\_util\\__init__.py',
+   'PYMODULE'),
+  ('pynput.mouse',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\mouse\\__init__.py',
+   'PYMODULE'),
+  ('pynput._util.xorg',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\_util\\xorg.py',
+   'PYMODULE'),
+  ('pynput.keyboard._xorg',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pynput\\keyboard\\_xorg.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_monitor_input.main',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\src\\jcp_plus_pulp_monitor_input\\main.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_monitor_input',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\src\\jcp_plus_pulp_monitor_input\\__init__.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_monitor_away.listeners',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\jcp_plus_pulp_monitor_away\\listeners.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_monitor_away',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\jcp_plus_pulp_monitor_away\\__init__.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_monitor_away.__main__',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\jcp_plus_pulp_monitor_away\\__main__.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_monitor_away.config',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\jcp_plus_pulp_monitor_away\\config.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_core.config',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_core\\config.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_core.__about__',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_core\\__about__.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_core.dirs',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_core\\dirs.py',
+   'PYMODULE'),
+  ('deprecation',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\deprecation.py',
+   'PYMODULE'),
+  ('tomlkit',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\__init__.py',
+   'PYMODULE'),
+  ('tomlkit.api',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\api.py',
+   'PYMODULE'),
+  ('tomlkit.toml_document',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\toml_document.py',
+   'PYMODULE'),
+  ('tomlkit.parser',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\parser.py',
+   'PYMODULE'),
+  ('tomlkit.toml_char',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\toml_char.py',
+   'PYMODULE'),
+  ('tomlkit.source',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\source.py',
+   'PYMODULE'),
+  ('tomlkit._compat',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\_compat.py',
+   'PYMODULE'),
+  ('tomlkit.items',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\items.py',
+   'PYMODULE'),
+  ('tomlkit._types',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\_types.py',
+   'PYMODULE'),
+  ('tomlkit.exceptions',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\exceptions.py',
+   'PYMODULE'),
+  ('tomlkit._utils',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\_utils.py',
+   'PYMODULE'),
+  ('tomlkit.container',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\tomlkit\\container.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_monitor_away.afk',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\jcp_plus_pulp_monitor_away\\afk.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_monitor_away.unix',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\jcp_plus_pulp_monitor_away\\unix.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_monitor_away.macos',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\jcp_plus_pulp_monitor_away\\macos.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_monitor_away.windows',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\jcp_plus_pulp_monitor_away\\windows.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_core.models',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_core\\models.py',
+   'PYMODULE'),
+  ('iso8601',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\iso8601\\__init__.py',
+   'PYMODULE'),
+  ('iso8601.iso8601',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\iso8601\\iso8601.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_core.log',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_core\\log.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_core.decorators',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_core\\decorators.py',
+   'PYMODULE'),
+  ('logging.handlers',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\logging\\handlers.py',
+   'PYMODULE'),
+  ('win32evtlogutil',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\win32\\lib\\win32evtlogutil.py',
+   'PYMODULE'),
+  ('winerror',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE'),
+  ('win32con',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('smtplib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\smtplib.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\hmac.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_core',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_core\\__init__.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_core.schema',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_core\\schema.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_core.util',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_core\\util.py',
+   'PYMODULE'),
+  ('click',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('click.utils',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\glob.py',
+   'PYMODULE'),
+  ('click._compat',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('colorama',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('click.termui',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tty.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('click.parser',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\difflib.py',
+   'PYMODULE'),
+  ('click.globals',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('importlib_metadata',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib_metadata._itertools',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib_metadata._functools',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib_metadata._compat',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('importlib_metadata._collections',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib_metadata.compat.py39',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata\\compat\\py39.py',
+   'PYMODULE'),
+  ('importlib_metadata.compat',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata\\compat\\__init__.py',
+   'PYMODULE'),
+  ('importlib_metadata._meta',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib_metadata._adapters',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib_metadata._text',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('zipp',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\zipp\\__init__.py',
+   'PYMODULE'),
+  ('zipp.glob',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\zipp\\glob.py',
+   'PYMODULE'),
+  ('zipp.compat.py310',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\zipp\\compat\\py310.py',
+   'PYMODULE'),
+  ('zipp.compat',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\zipp\\compat\\__init__.py',
+   'PYMODULE'),
+  ('click.core',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click.shell_completion',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\shell_completion.py',
+   'PYMODULE'),
+  ('click.types',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\uuid.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_client',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-client\\jcp_plus_pulp_client\\__init__.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_client.client',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-client\\jcp_plus_pulp_client\\client.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_client.singleinstance',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-client\\jcp_plus_pulp_client\\singleinstance.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_client.config',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-client\\jcp_plus_pulp_client\\config.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.heartbeats',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\heartbeats.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\__init__.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.union_no_overlap',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\union_no_overlap.py',
+   'PYMODULE'),
+  ('timeslot',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\timeslot\\__init__.py',
+   'PYMODULE'),
+  ('timeslot.timeslot',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\timeslot\\timeslot.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.classify',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\classify.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.flood',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\flood.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.simplify',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\simplify.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.split_url_events',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\split_url_events.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.sort_by',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\sort_by.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.chunk_events_by_key',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\chunk_events_by_key.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.merge_events_by_keys',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\merge_events_by_keys.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.filter_period_intersect',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\filter_period_intersect.py',
+   'PYMODULE'),
+  ('jcp_plus_pulp_transform.filter_keyvals',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-core\\jcp_plus_pulp_transform\\filter_keyvals.py',
+   'PYMODULE'),
+  ('requests',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('requests.models',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('idna',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.core',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\util.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ipaddress.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\_base_connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\_request_methods.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('requests.api',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\contrib\\emscripten\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.connection',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\contrib\\emscripten\\connection.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.response',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\contrib\\emscripten\\response.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.request',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\contrib\\emscripten\\request.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.fetch',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\urllib3\\contrib\\emscripten\\fetch.py',
+   'PYMODULE'),
+  ('persistqueue',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\__init__.py',
+   'PYMODULE'),
+  ('persistqueue.mysqlqueue',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\mysqlqueue.py',
+   'PYMODULE'),
+  ('persistqueue.sqlackqueue',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\sqlackqueue.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('persistqueue.sqlqueue',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\sqlqueue.py',
+   'PYMODULE'),
+  ('persistqueue.pdict',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\pdict.py',
+   'PYMODULE'),
+  ('persistqueue.sqlbase',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\sqlbase.py',
+   'PYMODULE'),
+  ('persistqueue.serializers.pickle',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\serializers\\pickle.py',
+   'PYMODULE'),
+  ('persistqueue.serializers',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\serializers\\__init__.py',
+   'PYMODULE'),
+  ('persistqueue.queue',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\queue.py',
+   'PYMODULE'),
+  ('persistqueue.common',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\common.py',
+   'PYMODULE'),
+  ('persistqueue.exceptions',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\persistqueue\\exceptions.py',
+   'PYMODULE')],
+ [('python39.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\python39.dll',
+   'BINARY'),
+  ('_lzma.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('win32\\win32evtlog.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\win32\\win32evtlog.pyd',
+   'EXTENSION'),
+  ('win32\\win32api.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md__mypyc.cp39-win_amd64.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\charset_normalizer\\md__mypyc.cp39-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp39-win_amd64.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\charset_normalizer\\md.cp39-win_amd64.pyd',
+   'EXTENSION'),
+  ('_sqlite3.pyd',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libffi-7.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('pywin32_system32\\pywintypes39.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pywin32_system32\\pywintypes39.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\sqlite3.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-input\\build\\jcp-plus-pulp-monitor-input\\base_library.zip',
+   'DATA'),
+  ('importlib_metadata-7.1.0.dist-info\\WHEEL',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\WHEEL',
+   'DATA'),
+  ('importlib_metadata-7.1.0.dist-info\\RECORD',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\RECORD',
+   'DATA'),
+  ('importlib_metadata-7.1.0.dist-info\\METADATA',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\METADATA',
+   'DATA'),
+  ('importlib_metadata-7.1.0.dist-info\\top_level.txt',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('importlib_metadata-7.1.0.dist-info\\LICENSE',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\LICENSE',
+   'DATA'),
+  ('importlib_metadata-7.1.0.dist-info\\INSTALLER',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\importlib_metadata-7.1.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\py.typed',
+   'DATA')])

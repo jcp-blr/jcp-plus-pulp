@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\ygowda\OneDrive - JC Penney\Documents\GitHub\jcp-plus-pulp\.venv
+set VIRTUAL_ENV=C:\Users\Maruthi Gowda\Documents\GitHub\jcp-plus-pulp\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 

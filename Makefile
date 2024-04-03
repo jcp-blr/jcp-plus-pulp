@@ -119,10 +119,10 @@ jcp-plus-pulp-qt/media/logo/logo.icns:
 	rm -R build/MyIcon.iconset
 	mv build/MyIcon.icns jcp-plus-pulp-qt/media/logo/logo.icns
 
-dist/JCP+ PULP.app: jcp-plus-pulp-qt/media/logo/logo.icns
+dist/JCP_PLUS_PULP.app: jcp-plus-pulp-qt/media/logo/logo.icns
 	pyinstaller --clean --noconfirm jcp-plus-pulp.spec
 
-dist/JCP+ PULP.dmg: dist/JCP+ PULP.app
+dist/JCP_PLUS_PULP.dmg: dist/JCP+_PULP.app
 	# NOTE: This does not codesign the dmg, that is done in the CI config
 	pip install dmgbuild
 	dmgbuild -s scripts/package/dmgbuild-settings.py -D app=dist/JCP+ PULP.app "JCP+ PULP" dist/JCP+ PULP.dmg
@@ -141,6 +141,12 @@ package:
 	mv dist/jcp-plus-pulp/jcp-plus-pulp-qt jcp-plus-pulp-qt-tmp
 	mv jcp-plus-pulp-qt-tmp/* dist/jcp-plus-pulp
 	rmdir jcp-plus-pulp-qt-tmp
+# MG code below
+	cp -r dist/jcp-plus-pulp/jcp-plus-pulp-monitor-away dist/jcp-plus-pulp/_internal/jcp-plus-pulp-monitor-away
+	cp -r dist/jcp-plus-pulp/jcp-plus-pulp-monitor-input dist/jcp-plus-pulp/_internal/jcp-plus-pulp-monitor-input
+	cp -r dist/jcp-plus-pulp/jcp-plus-pulp-monitor-window dist/jcp-plus-pulp/_internal/jcp-plus-pulp-monitor-window
+	cp -r dist/jcp-plus-pulp/jcp-plus-pulp-server dist/jcp-plus-pulp/_internal/jcp-plus-pulp-server
+	cp -r dist/jcp-plus-pulp/jcp-plus-pulp-sync dist/jcp-plus-pulp/_internal/jcp-plus-pulp-sync
 # Remove problem-causing binaries
 	rm -f dist/jcp-plus-pulp/libdrm.so.2       # see: jcp-plus-pulp issue #161
 	rm -f dist/jcp-plus-pulp/libharfbuzz.so.0  # see: jcp-plus-pulp issue #660#issuecomment-959889230
