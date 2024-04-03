@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "jcp-plus-pulp-monitor-input"
-version = "0.1.0"
-description = "Input monitor for JCP+ PULP"
-authors = ["Erik Bjäreholt <erik@bjareho.lt>"]
-license = "MPL-2.0"
+version = "1.0.0"
+description = "Monitor Input for JCP+ PULP"
+authors = ["Maruthi Gowda <ygowda@jcp.com>"]
+license = "JCP+"
 packages = [
     { include = "jcp_plus_pulp_monitor_input", from = "src" }
 ]

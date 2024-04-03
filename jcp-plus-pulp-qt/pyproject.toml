@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "jcp-plus-pulp-qt"
-version = "0.1.0"
-description = "Trayicon for JCP+ PULP"
-authors = ["Erik Bjäreholt <erik@bjareho.lt>"]
-license = "MPL-2.0"
+version = "1.0.0"
+description = "Trayicon Manager for JCP+ PULP"
+authors = ["Maruthi Gowda <ygowda@jcp.com>"]
+license = "JCP+"
 include = ["jcp_plus_pulp_qt/resources.py"]  # resources.py is in .gitignore and generated before build
 packages = [
     { include = "jcp_plus_pulp_qt" },

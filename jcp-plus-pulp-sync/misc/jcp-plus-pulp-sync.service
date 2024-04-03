@@ -1,5 +1,5 @@
 [Unit]
-Description=Sync service for JCP+ PULP
+Description=Sync Service for JCP+ PULP
 Documentation=
 After=jcp-plus-pulp-server.service
 

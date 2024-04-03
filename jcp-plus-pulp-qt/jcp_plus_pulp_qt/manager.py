@@ -153,7 +153,7 @@ class Module:
         # logger.debug("Running: {}".format(exec_cmd))
 
         # Don't display a console window on Windows
-        # See: https://github.com/jcp-blr/jcp-plus-pulp/issues/212
+        # See: jcp-plus-pulp issue #212
         startupinfo = None
         if sys.platform == "win32" or sys.platform == "cygwin":
             startupinfo = subprocess.STARTUPINFO()

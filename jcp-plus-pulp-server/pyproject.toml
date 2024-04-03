@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "jcp-plus-pulp-server"
-version = "0.12.0"
+version = "1.0.0"
 description = "Server for JCP+ PULP"
-authors = ["Erik Bjäreholt <erik@bjareho.lt>"]
-license = "MPL-2.0"
+authors = ["Maruthi Gowda <ygowda@jcp.com>"]
+license = "JCP+"
 include = []
 
 [tool.poetry.scripts]

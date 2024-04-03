@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "jcp-plus-pulp-client"
-version = "0.5.13"
-description = "Client library for JCP+ PULP"
+version = "1.0.0"
+description = "Client Library for JCP+ PULP"
 authors = ["Maruthi Gowda <ygowda@jcp.com>"]
-license = "MPL-2.0"
+license = "JCP+"
 packages = [
     { include = "jcp_plus_pulp_client" },
 ]
@@ -31,7 +31,7 @@ pyupgrade = "*"
 black = "*"
 
 [tool.mypy]
-files = ["jcp_plus_pulp_client", "tests", "examples"]
+files = ["jcp_plus_pulp_client"]
 ignore_missing_imports = true
 check_untyped_defs = true
 

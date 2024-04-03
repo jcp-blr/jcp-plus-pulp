@@ -480,14 +480,14 @@ class RequestQueue(threading.Thread):
                 "Connection refused or timeout, will queue requests until connection is available."
             )
             # wait a bit before retrying, so we don't spam the server (or logs), see:
-            #  - https://github.com/jcp-blr/jcp-plus-pulp/issues/815
-            #  - https://github.com/jcp-blr/jcp-plus-pulp/issues/756#issuecomment-1266662861
+            #  - jcp-plus-pulp issue #815
+            #  - jcp-plus-pulp issue #756#issuecomment-1266662861
             sleep(0.5)
             return
         except req.RequestException as e:
             if e.response and e.response.status_code == 400:
                 # HTTP 400 - Bad request
-                # Example case: https://github.com/jcp-blr/jcp-plus-pulp/issues/815
+                # Example case: jcp-plus-pulp issue #815
                 # We don't want to retry, because a bad payload is likely to fail forever.
                 logger.error(f"Bad request, not retrying: {request.data}")
             elif e.response and e.response.status_code == 500:

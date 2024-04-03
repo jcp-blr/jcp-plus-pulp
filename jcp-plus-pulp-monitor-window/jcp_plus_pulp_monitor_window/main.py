@@ -117,7 +117,7 @@ def heartbeat_loop(client, bucket_id, poll_time, strategy, exclude_title=False):
             try:
                 # If stdout has been closed, this exception-print can cause (I think)
                 #   OSError: [Errno 5] Input/output error
-                # See: https://github.com/jcp-blr/jcp-plus-pulp/issues/756#issue-1296352264
+                # See: jcp-plus-pulp issue #756#issue-1296352264
                 #
                 # However, I'm unable to reproduce the OSError in a test (where I close stdout before logging),
                 # so I'm in uncharted waters here... but this solution should work.

@@ -38,7 +38,7 @@ build:
 		echo "Building $$module"; \
 		make --directory=$$module build; \
 	done
-#   The below is needed due to: https://github.com/jcp-blr/jcp-plus-pulp/issues/173
+#   The below is needed due to: jcp-plus-pulp issue #173
 	make --directory=jcp-plus-pulp-client build
 	make --directory=jcp-plus-pulp-core build
 #	Needed to ensure that the server has the correct version set
@@ -142,8 +142,8 @@ package:
 	mv jcp-plus-pulp-qt-tmp/* dist/jcp-plus-pulp
 	rmdir jcp-plus-pulp-qt-tmp
 # Remove problem-causing binaries
-	rm -f dist/jcp-plus-pulp/libdrm.so.2       # see: https://github.com/jcp-blr/jcp-plus-pulp/issues/161
-	rm -f dist/jcp-plus-pulp/libharfbuzz.so.0  # see: https://github.com/jcp-blr/jcp-plus-pulp/issues/660#issuecomment-959889230
+	rm -f dist/jcp-plus-pulp/libdrm.so.2       # see: jcp-plus-pulp issue #161
+	rm -f dist/jcp-plus-pulp/libharfbuzz.so.0  # see: jcp-plus-pulp issue #660#issuecomment-959889230
 # These should be provided by the distro itself
 # Had to be removed due to otherwise causing the error:
 	rm -f dist/jcp-plus-pulp/libfontconfig.so.1

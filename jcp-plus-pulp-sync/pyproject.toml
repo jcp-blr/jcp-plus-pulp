@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "jcp-plus-pulp-sync"
 version = "1.0.0"
-description = "Synce for JCP+ PULP"
+description = "Sync for JCP+ PULP"
 authors = ["Maruthi Gowda <ygowda@jcp.com>"]
 license = "JCP+"
 

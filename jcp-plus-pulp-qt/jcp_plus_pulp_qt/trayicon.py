@@ -29,7 +29,7 @@ def get_env() -> Dict[str, str]:
     """
     Necessary for xdg-open to work properly when PyInstaller overrides LD_LIBRARY_PATH
 
-    https://github.com/jcp-blr/jcp-plus-pulp/issues/208#issuecomment-417346407
+    jcp-plus-pulp issue #208#issuecomment-417346407
     """
     env = dict(os.environ)  # make a copy of the environment
     lp_key = "LD_LIBRARY_PATH"  # for GNU/Linux and *BSD.
@@ -121,7 +121,7 @@ class TrayIcon(QSystemTrayIcon):
         exitIcon = QIcon.fromTheme(
             "application-exit", QIcon("media/application_exit.png")
         )
-        # This check is an attempted solution to: https://github.com/jcp-blr/jcp-plus-pulp/issues/62
+        # This check is an attempted solution to: jcp-plus-pulp issue #62
         # Seems to be in agreement with: https://github.com/OtterBrowser/otter-browser/issues/1313
         #   "it seems that the bug is also triggered when creating a QIcon with an invalid path"
         if exitIcon.availableSizes():

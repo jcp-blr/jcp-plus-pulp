@@ -1,5 +1,5 @@
 [Unit]
-Description=Server service for JCP+ PULP
+Description=Server Service for JCP+ PULP
 Documentation=
 After=mongodb.service
 

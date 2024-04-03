@@ -105,8 +105,8 @@ def _create_file_handler(
 
     # Create rotating logfile handler, max 10MB per file, 3 files max
     # Prevents logfile from growing too large, like in:
-    #  - https://github.com/jcp-blr/jcp-plus-pulp/issues/815#issue-1423555466
-    #  - https://github.com/jcp-blr/jcp-plus-pulp/issues/756#issuecomment-1266662861
+    #  - jcp-plus-pulp issue #815#issue-1423555466
+    #  - jcp-plus-pulp issue #756#issuecomment-1266662861
     fh = RotatingFileHandler(
         log_file_path, mode="a", maxBytes=10 * 1024 * 1024, backupCount=3
     )

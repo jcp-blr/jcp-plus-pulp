@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "JCP+ PULP"
-version = "0.12.0"
-description = "The free and open-source automated time tracker. Cross-platform, extensible, privacy-focused."
-authors = ["Erik Bjäreholt <erik@bjareho.lt>", "Johan Bjäreholt <johan@bjareho.lt>"]
-license = "MPL-2.0"
+version = "1.0.0"
+description = JCP+ Associate Analytics Library"
+authors = ["Maruthi Gowda <ygowda@jcp.com>"]
+license = "JCP+"
 
 [tool.poetry.dependencies]
 python = "^3.8,<3.13"

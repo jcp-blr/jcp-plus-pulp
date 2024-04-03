@@ -15,7 +15,7 @@ jcp-plus-pulp-monitor-example=/home/user/path/to/static_dir/
 Another parameter called "view" can be used if you want to create multiple visualizations for a single watcher.
 
 - You can show your custom visualizations in the official JCP+ PULP UI using the "Custom Watcher View"
-  See https://github.com/jcp-blr/jcp-plus-pulp/issues/453#issuecomment-910567848
+  See jcp-plus-pulp issue #453#issuecomment-910567848
 
 """
 

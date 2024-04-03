@@ -1,5 +1,5 @@
 [Unit]
-Description=X11 window watcher for JCP+ PULP
+Description=X11 Monitor Window Service for JCP+ PULP
 Documentation=
 After=jcp-plus-pulp-server.service
 

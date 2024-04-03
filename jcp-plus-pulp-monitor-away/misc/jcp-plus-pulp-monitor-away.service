@@ -1,5 +1,5 @@
 [Unit]
-Description=AFK monitor service for JCP+ PULP
+Description=Monitor Away Service for JCP+ PULP
 Documentation=
 After=jcp-plus-pulp-server.service
 

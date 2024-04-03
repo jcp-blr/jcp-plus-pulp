@@ -1,5 +1,5 @@
 [Unit]
-Description=Input monitor service for JCP+ PULP
+Description=Monitor Input Service for JCP+ PULP
 Documentation=
 After=jcp-plus-pulp-server.service
 

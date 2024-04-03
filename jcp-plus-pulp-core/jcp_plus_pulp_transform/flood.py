@@ -13,7 +13,7 @@ def flood(events: List[Event], pulsetime: float = 5) -> List[Event]:
     Takes a list of events and "floods" any empty space between events by extending one of the surrounding events to cover the empty space.
 
     For more details on flooding, see this issue:
-     - https://github.com/jcp-blr/jcp-plus-pulp/issues/124
+     - jcp-plus-pulp issue #124
     """
     # Originally written in jcp-plus-pulp-research: https://github.com/jcp-blr/jcp-plus-pulp-analysis/blob/7da1f2cd8552f866f643501de633d74cdecab168/aw_analysis/flood.py
     # NOTE: This algorithm has a lot of smaller details that need to be
