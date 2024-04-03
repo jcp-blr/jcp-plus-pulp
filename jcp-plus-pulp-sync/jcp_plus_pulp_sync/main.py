@@ -1,9 +1,14 @@
+import logging
 import socket
 import os
 import asyncio
 from jcp_plus_pulp_core.dirs import get_data_dir
 import sqlite3, json, requests
 from notifypy import Notify
+
+logger = logging.getLogger(__name__)
+logger.info("jcp-plus-pulp-sync db filepath is " + str(filepath))
+print("logged")
 
 async def stuff():
     db_records = []
@@ -14,6 +19,7 @@ async def stuff():
         cur = con.cursor()
         cur.execute("SELECT * FROM eventmodel ORDER BY id ASC")
         db_records = cur.fetchall()
+        
     except Exception as err:
         print('Query Error: ' + (str(err)))
     finally:
