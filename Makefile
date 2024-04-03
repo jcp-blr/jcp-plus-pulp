@@ -142,11 +142,11 @@ package:
 	mv jcp-plus-pulp-qt-tmp/* dist/jcp-plus-pulp
 	rmdir jcp-plus-pulp-qt-tmp
 # MG code below
-	cp -r dist/jcp-plus-pulp/jcp-plus-pulp-monitor-away dist/jcp-plus-pulp/_internal/jcp-plus-pulp-monitor-away
-	cp -r dist/jcp-plus-pulp/jcp-plus-pulp-monitor-input dist/jcp-plus-pulp/_internal/jcp-plus-pulp-monitor-input
-	cp -r dist/jcp-plus-pulp/jcp-plus-pulp-monitor-window dist/jcp-plus-pulp/_internal/jcp-plus-pulp-monitor-window
-	cp -r dist/jcp-plus-pulp/jcp-plus-pulp-server dist/jcp-plus-pulp/_internal/jcp-plus-pulp-server
-	cp -r dist/jcp-plus-pulp/jcp-plus-pulp-sync dist/jcp-plus-pulp/_internal/jcp-plus-pulp-sync
+	mv dist/jcp-plus-pulp/jcp-plus-pulp-monitor-away dist/jcp-plus-pulp/_internal/jcp-plus-pulp-monitor-away
+	mv dist/jcp-plus-pulp/jcp-plus-pulp-monitor-input dist/jcp-plus-pulp/_internal/jcp-plus-pulp-monitor-input
+	mv dist/jcp-plus-pulp/jcp-plus-pulp-monitor-window dist/jcp-plus-pulp/_internal/jcp-plus-pulp-monitor-window
+	mv dist/jcp-plus-pulp/jcp-plus-pulp-server dist/jcp-plus-pulp/_internal/jcp-plus-pulp-server
+	mv dist/jcp-plus-pulp/jcp-plus-pulp-sync dist/jcp-plus-pulp/_internal/jcp-plus-pulp-sync
 # Remove problem-causing binaries
 	rm -f dist/jcp-plus-pulp/libdrm.so.2       # see: jcp-plus-pulp issue #161
 	rm -f dist/jcp-plus-pulp/libharfbuzz.so.0  # see: jcp-plus-pulp issue #660#issuecomment-959889230
