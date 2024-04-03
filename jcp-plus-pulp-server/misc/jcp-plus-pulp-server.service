@@ -1,0 +1,12 @@
+[Unit]
+Description=Server service for JCP+ PULP
+Documentation=
+After=mongodb.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/env jcp-plus-pulp-server
+Restart=always
+
+[Install]
+WantedBy=default.target

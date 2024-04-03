@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "jcp-plus-pulp-sync"
+version = "1.0.0"
+description = "Synce for JCP+ PULP"
+authors = ["Maruthi Gowda <ygowda@jcp.com>"]
+license = "JCP+"
+
+[tool.poetry.dependencies]
+python = "^3.9,<3.12"
+jcp-plus-pulp-core = { path = "../jcp-plus-pulp-core/", develop = false }
+asyncio = "^3.4.3"
+requests = "^2.31.0"
+notify-py = "^0.3.42"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.9.0"
+pyinstaller = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

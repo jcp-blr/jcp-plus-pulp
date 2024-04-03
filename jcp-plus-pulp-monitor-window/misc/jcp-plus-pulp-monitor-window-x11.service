@@ -1,0 +1,14 @@
+[Unit]
+Description=X11 window watcher for JCP+ PULP
+Documentation=
+After=jcp-plus-pulp-server.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/env jcp-plus-pulp-monitor-window-x11
+Environment="DISPLAY=:0"
+Restart=always
+KillSignal=SIGINT
+
+[Install]
+WantedBy=default.target

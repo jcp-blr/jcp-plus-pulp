@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "jcp-plus-pulp-monitor-input"
+version = "0.1.0"
+description = "Input monitor for JCP+ PULP"
+authors = ["Erik Bjäreholt <erik@bjareho.lt>"]
+license = "MPL-2.0"
+packages = [
+    { include = "jcp_plus_pulp_monitor_input", from = "src" }
+]
+
+[tool.poetry.scripts]
+jcp-plus-pulp-monitor-input = "jcp_plus_pulp_monitor_input.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.13"
+jcp-plus-pulp-client = { path = "../jcp-plus-pulp-client/", develop = false }
+jcp-plus-pulp-monitor-away = { path = "../jcp-plus-pulp-monitor-away/", develop = false }
+
+[tool.poetry.dev-dependencies]
+pyinstaller = "*"
+mypy = "*"
+black = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
