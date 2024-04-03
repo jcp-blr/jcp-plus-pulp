@@ -884,6 +884,10 @@
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
+   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
@@ -891,10 +895,6 @@
   ('tracemalloc',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\Maruthi '
-   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
    'PYMODULE'),
   ('notifypy',
    'C:\\Users\\Maruthi '
@@ -1742,11 +1742,11 @@
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-sync\\build\\jcp-plus-pulp-sync\\base_library.zip',
    'DATA'),
-  ('certifi\\cacert.pem',
-   'C:\\Users\\Maruthi '
-   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\cacert.pem',
-   'DATA'),
   ('certifi\\py.typed',
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\cacert.pem',
    'DATA')])
