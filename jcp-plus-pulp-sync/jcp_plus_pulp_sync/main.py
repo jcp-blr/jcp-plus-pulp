@@ -38,8 +38,10 @@ async def stuff():
             else:
                 response = requests.get('https://plus.tools.dp-dev.jcpcloud2.net/pulp?device=' + socket.gethostname() + '&os=' + platform.system() + ' ' + platform.version() + '&user=' + os.getlogin(), timeout=300, verify=False, headers={'Content-type': 'application/json', 'Cache-Control': 'no-cache'})
             logger.info(response.status_code)
+            logger.info(response)
             if response.status_code == 200:
                 response_data = response.json()
+                logger.info(json.dumps(response_data))
                 if "delete_id" in response_data:
                     try:
                         con = sqlite3.connect(filepath)

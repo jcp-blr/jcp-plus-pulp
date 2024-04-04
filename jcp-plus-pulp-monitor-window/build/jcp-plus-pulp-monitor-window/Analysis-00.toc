@@ -899,17 +899,17 @@
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
-  ('_py_abc',
+  ('stringprep',
    'C:\\Users\\Maruthi '
-   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
    'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
    'PYMODULE'),
-  ('stringprep',
+  ('_py_abc',
    'C:\\Users\\Maruthi '
-   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
    'PYMODULE'),
   ('jcp_plus_pulp_monitor_window.main',
    'C:\\Users\\Maruthi '
