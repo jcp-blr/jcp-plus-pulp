@@ -37,29 +37,26 @@ async def stuff():
                 response = requests.post('https://plus.tools.dp-dev.jcpcloud2.net/pulp?device=' + socket.gethostname() + '&os=' + platform.system() + ' ' + platform.version() + '&user=' + os.getlogin(), data=json.dumps(db_records), timeout=300, verify=False, headers={'Content-type': 'application/json', 'Cache-Control': 'no-cache'})
             else:
                 response = requests.get('https://plus.tools.dp-dev.jcpcloud2.net/pulp?device=' + socket.gethostname() + '&os=' + platform.system() + ' ' + platform.version() + '&user=' + os.getlogin(), timeout=300, verify=False, headers={'Content-type': 'application/json', 'Cache-Control': 'no-cache'})
-            logger.info(response.status_code)
-            logger.info(response)
             if response.status_code == 200:
                 response_data = response.json()
-                logger.info(json.dumps(response_data))
                 if "delete_id" in response_data:
                     try:
                         con = sqlite3.connect(filepath)
                         cur = con.cursor()
-                        logger.info("DELETE FROM eventmodel WHERE id <= " + response_data.delete_id)
-                        cur.execute("DELETE FROM eventmodel WHERE id <= " + response_data.delete_id)
+                        cur.execute("DELETE FROM eventmodel WHERE id <= " + str(response_data['delete_id']))
+                        con.commit()
                     except Exception as err:
                         logger.error('Delete Query Error: ' + (str(err)))
                     finally:
                         con.close()
                 if "notify" in response_data:
                     notification = Notify()
-                    notification.application_name = response_data.notify.app_name
-                    notification.title = response_data.notify.title
-                    notification.message = response_data.notify.message
+                    notification.application_name = response_data['notify']['app']
+                    notification.title = response_data['notify']['title']
+                    notification.message = response_data['notify']['message']
                     notification.icon = str(get_data_dir("jcp-plus-pulp-qt")) + "/media/logo/logo.png"
                     notification.urgency = "critical"
-                    notification.timeout = 10000  # 10 seconds
+                    notification.timeout = 10000
                     notification.send()
         except Exception as err:
             logger.error('Sync Error: ' + (str(err)))
