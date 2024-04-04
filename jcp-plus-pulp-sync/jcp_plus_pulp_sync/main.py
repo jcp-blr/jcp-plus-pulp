@@ -1,6 +1,7 @@
 import logging
 import socket
 import os
+import platform
 import asyncio
 import sqlite3, json, requests
 from notifypy import Notify
