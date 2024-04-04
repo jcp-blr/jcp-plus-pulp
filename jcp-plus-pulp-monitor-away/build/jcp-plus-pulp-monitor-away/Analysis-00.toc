@@ -1175,17 +1175,17 @@
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\miscellany.py',
    'PYMODULE'),
-  ('_py_abc',
+  ('stringprep',
    'C:\\Users\\Maruthi '
-   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
    'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
    'PYMODULE'),
-  ('stringprep',
+  ('_py_abc',
    'C:\\Users\\Maruthi '
-   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
    'PYMODULE'),
   ('jcp_plus_pulp_monitor_away.config',
    'C:\\Users\\Maruthi '
@@ -1857,11 +1857,11 @@
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\jcp-plus-pulp-monitor-away\\build\\jcp-plus-pulp-monitor-away\\base_library.zip',
    'DATA'),
-  ('certifi\\cacert.pem',
-   'C:\\Users\\Maruthi '
-   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\cacert.pem',
-   'DATA'),
   ('certifi\\py.typed',
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\certifi\\cacert.pem',
    'DATA')])
