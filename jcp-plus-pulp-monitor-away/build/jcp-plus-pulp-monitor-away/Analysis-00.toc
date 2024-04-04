@@ -1175,13 +1175,13 @@
    'C:\\Users\\Maruthi '
    'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\Xlib\\keysymdef\\miscellany.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\Maruthi '
-   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
-   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
    'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\Maruthi '

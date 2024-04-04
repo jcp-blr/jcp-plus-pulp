@@ -28,7 +28,7 @@ async def stuff():
         cur.execute("SELECT * FROM eventmodel ORDER BY id ASC")
         db_records = cur.fetchall()
     except Exception as err:
-        #logger.error('Fetch Query Error: ' + (str(err)))
+        logger.error('Fetch Query Error: ' + (str(err)))
     finally:
         con.close()
         try:
@@ -59,7 +59,7 @@ async def stuff():
                     notification.timeout = 10000  # 10 seconds
                     notification.send()
         except Exception as err:
-            #logger.error('Sync Error: ' + (str(err)))
+            logger.error('Sync Error: ' + (str(err)))
     await asyncio.sleep(11)
 
 async def do_stuff_periodically(interval, periodic_function):
