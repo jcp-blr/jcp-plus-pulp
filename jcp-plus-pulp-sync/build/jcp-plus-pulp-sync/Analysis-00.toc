@@ -880,6 +880,10 @@
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\plistlib.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Maruthi '
+   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
+   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
@@ -887,10 +891,6 @@
   ('_py_abc',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Maruthi '
-   'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('jcp_plus_pulp_core.dirs',
    'C:\\Users\\Maruthi '
@@ -1724,13 +1724,13 @@
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libffi-7.dll',
    'BINARY'),
-  ('pywin32_system32\\pywintypes39.dll',
-   'C:\\Users\\Maruthi '
-   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pywin32_system32\\pywintypes39.dll',
-   'BINARY'),
   ('VCRUNTIME140_1.dll',
    'C:\\Users\\Maruthi '
    'Gowda\\AppData\\Local\\Programs\\Python\\Python39\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('pywin32_system32\\pywintypes39.dll',
+   'C:\\Users\\Maruthi '
+   'Gowda\\Documents\\GitHub\\jcp-plus-pulp\\.venv\\lib\\site-packages\\pywin32_system32\\pywintypes39.dll',
    'BINARY'),
   ('sqlite3.dll',
    'C:\\Users\\Maruthi '

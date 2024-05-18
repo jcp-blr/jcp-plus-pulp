@@ -17,11 +17,12 @@ from .macos_permissions import background_ensure_permissions
 
 logger = logging.getLogger(__name__)
 
+allowed_apps = {"excel.exe": 1, "winword.exe": 1, 'powerpnt.exe': 1, 'ms-teams.exe': 1, 'outlook.exe': 1, 'msedge.exe': 1, 'chrome.exe': 1, 'githubdesktop.exe': 1, }
+
 # run with LOG_LEVEL=DEBUG
 log_level = os.environ.get("LOG_LEVEL")
 if log_level:
     logger.setLevel(logging.__getattribute__(log_level.upper()))
-
 
 def kill_process(pid):
     logger.info("Killing process {}".format(pid))
@@ -104,6 +105,10 @@ def heartbeat_loop(client, bucket_id, poll_time, strategy, exclude_title=False):
         current_window = None
         try:
             current_window = get_current_window(strategy)
+            if not current_window["app"].lower() in allowed_apps:
+                continue
+            print(current_window)
+            logger.info(current_window["app"] + " => " + current_window["title"])
             logger.debug(current_window)
         except (FatalError, OSError):
             # Fatal exceptions should quit the program

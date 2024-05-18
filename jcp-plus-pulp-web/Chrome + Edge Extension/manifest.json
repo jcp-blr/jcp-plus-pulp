@@ -1,41 +1,25 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
   "manifest_version": 2,
-
-  "name": "ActivityWatch Web Watcher",
-  "short_name": "ActivityWatch",
-  "description": "Log the current tab and your browser activity with ActivityWatch.",
+  "name": "Productivity & Utilisation Tool",
+  "short_name": "Productivity & Utilisation Tool",
+  "description": "Productivity & Utilisation Tool",
   "version": "0.4.3",
   "icons": {
-    "128": "media/logo/logo-128.png"
+    "128": "logo.png"
   },
-
-  "browser_action": {
-    "default_icon": "media/logo/logo-128.png",
-    "default_popup": "static/popup.html"
-  },
-
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "{ef87d84c-2127-493f-b952-5b4e744245bc}"
-    }
-  },
-
   "background": {
     "scripts": [
-        "out/app.js"
+      "pulp.js"
     ],
     "persistent": false
   },
-
   "permissions": [
     "tabs",
     "alarms",
     "notifications",
     "activeTab",
     "storage",
-    "http://localhost:5600/api/*",
-    "http://localhost:5666/api/*"
+    "declarativeContent",
+    "http://localhost:5600/api/*"
   ]
 }

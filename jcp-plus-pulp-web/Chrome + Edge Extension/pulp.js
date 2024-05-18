@@ -3282,7 +3282,7 @@ var retry = require("p-retry") // See aw-watcher-web issue #41
 function emitNotification(title, message) {
   chrome.notifications.create({
     "type": "basic",
-    "iconUrl": chrome.extension.getURL("media/logo/logo-128.png"),
+    "iconUrl": chrome.extension.getURL("logo.png"),
     "title": title,
     "message": message,
   });
@@ -3291,7 +3291,7 @@ function emitNotification(title, message) {
 function logHttpError(error) {
   // No response property for network errors
   if (error.response) {
-    console.error("Status code: " + err.response.status + ", response: " + err.response.data.message);
+    console.error("Status code: " + error.response.status + ", response: " + error.response.data.message);
   } else {
     console.error("Unexpected error: " + error);
   }
@@ -3306,10 +3306,24 @@ var client = {
     console.log("Setting up client");
     // Check if in dev mode
     chrome.management.getSelf(function(info) {
-      client.testing = info.installType === "development";
+      //MG disabled it client.testing = info.installType === "development";
+      client.testing = false;
       console.log("testing: " + client.testing);
+	  
+	  client_name = 'Unknown Web Browser';
+	  let chromeCheck = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+	  let firefoxCheck = /Firefox/.test(navigator.userAgent);
+	  let ieCheck = /Edg/.test(navigator.userAgent);
 
-      client.awc = new AWClient("aw-client-web", {testing: client.testing});
+	  if (chromeCheck && !ieCheck) {
+		client_name = 'Chrome Web Browser';;
+	  } else if (firefoxCheck) {
+		client_name = 'Firefox Web Browser';
+	  } else if (ieCheck) {
+		client_name = 'Edge Web Browser';
+	  }
+	  
+      client.awc = new AWClient(client_name, {testing: client.testing});
       client.createBucket();
 
       // Needed in order to show testing information in popup
@@ -3377,7 +3391,7 @@ var client = {
         if (!client.lastSyncSuccess) {
           emitNotification(
             "Now connected again",
-            "Connection to ActivityWatch server established again"
+            "Connection to JCP+ server established again"
           );
         }
         client.lastSyncSuccess = true;
@@ -3385,8 +3399,8 @@ var client = {
       }, (err) => {
         if(client.lastSyncSuccess) {
           emitNotification(
-            "Unable to send event to server",
-            "Please ensure that ActivityWatch is running"
+            "Unable to send data to server",
+            "Please ensure that JCP+ is running"
           );
         }
         client.lastSyncSuccess = false;
@@ -3410,11 +3424,10 @@ var client = require("./client.js")
 "use strict";
 
 // Mininum guaranteed in chrome is 1min
-var check_interval = 5;
+var check_interval = 1;
 var max_check_interval = 60;
-var heartbeat_interval = 20;
+var heartbeat_interval = 5;
 var heartbeat_pulsetime = heartbeat_interval + max_check_interval;
-
 
 function getCurrentTabs(callback) {
   // Query filter to be passed to chrome.tabs.query - see
@@ -3439,9 +3452,16 @@ var last_heartbeat_data = null;
 var last_heartbeat_time = null;
 
 function heartbeat(tab, tabCount) {
+   if(
+		tab.url.indexOf('www.google.com') == -1 &&
+		tab.url.indexOf('www.yahoo.com') == -1
+   ){
+	   return;
+   }
   //console.log(JSON.stringify(tab));
   var now = new Date();
-  var data = {"url": tab.url, "title": tab.title, "audible": tab.audible, "incognito": tab.incognito, "tabCount": tabCount};
+  //MG disabled this var data = {"url": tab.url, "title": tab.title, "audible": tab.audible, "incognito": tab.incognito, "tabCount": tabCount};
+  var data = {"url": tab.url, "title": tab.title};
   // First heartbeat on startup
   if (last_heartbeat_time === null){
     //console.log("aw-watcher-web: First");
